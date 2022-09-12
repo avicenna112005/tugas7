@@ -1,0 +1,21 @@
+@font-face{
+    font-family: quicksand;
+    src: url(quicksand-v30-latin-regular.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5ms;
+    font-family: quicksand,sans-serif;
+}
+nav{
+    border: 3px solid #6e49ea;
+    border-left: 0px;
+    border-right: 0px;
+    height: 60px;
+    background-color: #303330;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
