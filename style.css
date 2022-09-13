@@ -42,7 +42,8 @@ a{
     padding: 15px;
 }
 a:hover{
-    color: purple;
+    background-color: purple;
+    transition: 0.5s;
 }
 .hero{
     text-align: center;
@@ -71,29 +72,28 @@ h4{
     font-weight: bold;
 }
 .row{
-    width: 600px;
+    width: 100%;
     margin: 10px 0;
 }
 .row img{
     border: #303330 3px solid ;
-    width: 250px;
+    width: 47%;
     margin: 0 5px;
 }
 .jumbo{
-    margin: 5px 0;
+    margin: 9px 0 0 0;
     float: right;
-    width: 715px;
+    width: 54.5%;
 
 }
 .jumbo img{
     border: #303330 3px solid;
-    width: 715px;
-    height: 515px;
+    width: 100%;
 }
 .in{
     display: inline-block;
-    width: 500px;
+    width: 45%;
 }
 .slide{
-    padding: 0 80px 6px;
+    padding: 0px 4%;
 }
